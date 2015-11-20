@@ -1,0 +1,196 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.
+* @license   JoomlaShine.com Proprietary License
+*/
+/* ============================== DEFAULT HTML ============================== */
+*::-moz-selection {
+	color: #FFF;
+	text-shadow: none;
+	background: none repeat scroll 0% 0% #cc4d3d;
+}
+a {
+	color: #cc4d3d;
+}
+a:hover,
+a:active,
+a:focus {
+	color: #a93627;
+}
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - OVERALL PAGE =============== */
+/* =============== MENU - MAIN MENU =============== */
+div.jsn-modulecontainer ul.menu-mainmenu li:hover > a,
+div.jsn-modulecontainer ul.menu-mainmenu li.active > a {
+	color: #cc4d3d;
+}
+/* =============== MODULE - POSITION TOOLBAR =============== */
+#jsn-menu .jsn-modulecontainer.display-dropdown:hover h3.jsn-moduletitle {
+	color: #cc4d3d;
+}
+/* =============== SITETOOL =============== */
+
+/* =============== PROMO/USERMODULES3 =============== */
+#jsn-promo,
+#jsn-usermodules3 {
+	background: #cc4d3d;
+}
+#jsn-usermodules3
+/* ============================== TYPOGRAPHY ============================== */
+/* =============== TYPOGRAPHY - LINK STYLES =============== */
+/* ----- ACTION LINK ----- */
+#jsn-page .link-action {
+	color: #cc4d3d;
+	border-bottom: 1px solid #cc4d3d;
+}
+#jsn-page .link-action:hover {
+	background-color: #cc4d3d;
+}
+/* ----- HIGHTLIGHT LINK ----- */
+li.jsn-highlight a span.jsn-menutitle,
+li.jsn-highlight a span.jsn-menudescription,
+div.jsn-modulecontainer ul li.jsn-highlight > a {
+	color: #cc4d3d;
+}
+/* ----- COLOR BUTTON ----- */
+.link-button.button-color {
+	background-color: #cc4d3d;
+}
+/* =============== TYPOGRAPHY - TABLE STYLES =============== */
+/* ----- COLOR HEADER TABLE ----- */
+table.style-colorheader thead th {
+	background-color: #cc4d3d;
+	border-right: 1px solid #a93627;
+}
+table.style-colorheader thead th:first-child {
+	border-left: 1px solid #cc4d3d;
+}
+/* ----- COLOR STRIPES TABLE ----- */
+table.style-colorstripes td,
+table.style-colorstripes th {
+	border-bottom: 1px solid #a93627;
+	border-right: 1px solid #a93627;
+}
+table.style-colorstripes thead th {
+	background-color: #cc4d3d;
+}
+table.style-colorstripes thead th.highlight {
+	background-color: #a93627;
+}
+table.style-colorstripes tbody tr {
+	background-color: #d06355;
+}
+table.style-colorstripes tbody td.highlight {
+	background-color: #c15343;
+}
+table.style-colorstripes tbody tr.odd {
+	background-color: #db7365;
+}
+table.style-colorstripes tbody tr.odd .highlight {
+	background-color: #d16455;
+}
+table.style-colorstripes tbody tr:hover th,
+table.style-colorstripes tbody tr:hover td {
+	background-color: #c65c4e;
+}
+table.style-colorstripes tbody tr:hover .highlight {
+	background-color: #b3493b;
+}
+table.style-colorstripes tbody td,
+table.style-colorstripes tbody th {
+	border-left: none;
+	border-right: 1px solid #a93627;
+}
+table.style-colorstripes tfoot th,
+table.style-colorstripes tfoot td {
+	background-color: #cc4d3d;
+}
+.sectiontableheader {
+	background-color: #5f9936;
+}
+/* ----- GREY STRIPES TABLE ----- */
+table.style-greystripes thead th.highlight {
+	background-color: #a93627;
+}
+/* ============================== MODULE STYLES ============================== */
+/* =============== MODULE STYLES - MODULE BOXES =============== */
+/* ----- SOLID STYLE ----- */
+div.richbox-1,
+div.solid-1 {
+	background: #cc4d3d;
+}
+/* ----- LIGHTBOX STYLE ----- */
+div.lightbox-1 {
+	border-color: #cc4d3d;
+}
+div.lightbox-1 h3.jsn-moduletitle {
+	color: #cc4d3d;
+}
+div.lightbox-1 h3.jsn-moduletitle:before {
+	background-color: #cc4d3d;
+}
+/* ----- RICHBOX STYLE ----- */
+div.richbox-1 {
+	border-color: #a93627;
+}
+div.richbox-1 h3.jsn-moduletitle {
+	background-color: #a93627;
+}
+/* ========== DISPLAY INLINE/DROP DOWN MODULE ========== */
+.jsn-modulecontainer[class*="display-"] form .search input.inputbox:focus + [class*="jsn-icon"] {
+	color: #cc4d3d;
+}
+/* ============================== SIDE-MENU/TREE MENU/TOP MENU STYLES ============================== */
+/* ----- HOVER/ACTIVE STATE ----- */
+div.jsn-modulecontainer ul.menu-sidemenu li:hover > a,
+div.jsn-modulecontainer ul.menu-sidemenu li.active > a,
+#jsn-footer-wrapper div.jsn-modulecontainer ul.menu-sidemenu > li:hover > a,
+#jsn-footer-wrapper div.jsn-modulecontainer ul.menu-sidemenu > li.active > a,
+div.jsn-modulecontainer ul.menu-treemenu li:hover > a,
+div.jsn-modulecontainer ul.menu-treemenu li.active > a,
+#jsn-footer-wrapper div.jsn-modulecontainer ul.menu-treemenu li:hover > a,
+#jsn-footer-wrapper div.jsn-modulecontainer ul.menu-treemenu li.active > a,
+div.jsn-modulecontainer ul.menu-topmenu li:hover > a,
+div.jsn-modulecontainer ul.menu-topmenu li.active > a {
+	color: #cc4d3d;
+}
+div.jsn-modulecontainer.richbox-1 ul.menu-sidemenu > li:hover > a,
+div.jsn-modulecontainer.solid-1 ul.menu-sidemenu > li:hover > a,
+#jsn-promo div.jsn-modulecontainer ul.menu-sidemenu > li:hover > a,
+#jsn-usermodules3 div.jsn-modulecontainer ul.menu-sidemenu > li:hover > a,
+div.jsn-modulecontainer.richbox-1 ul.menu-sidemenu > li.active > a,
+div.jsn-modulecontainer.solid-1 ul.menu-sidemenu > li.active > a,
+#jsn-promo div.jsn-modulecontainer ul.menu-sidemenu > li.active > a,
+#jsn-usermodules3 div.jsn-modulecontainer ul.menu-sidemenu > li.active > a,
+div.jsn-modulecontainer.richbox-1 ul.menu-treemenu li:hover > a,
+div.jsn-modulecontainer.solid-1 ul.menu-treemenu li:hover > a,
+#jsn-promo div.jsn-modulecontainer ul.menu-treemenu li:hover > a,
+#jsn-usermodules3 div.jsn-modulecontainer ul.menu-treemenu li:hover > a,
+div.jsn-modulecontainer.richbox-1 ul.menu-treemenu li.active > a,
+div.jsn-modulecontainer.solid-1 ul.menu-treemenu li.active > a,
+#jsn-promo div.jsn-modulecontainer ul.menu-treemenu li.active > a,
+#jsn-usermodules3 div.jsn-modulecontainer ul.menu-treemenu li.active > a,
+div.jsn-modulecontainer.richbox-1 ul.menu-topmenu > li:hover > a,
+div.jsn-modulecontainer.solid-1 ul.menu-topmenu > li:hover > a,
+#jsn-promo div.jsn-modulecontainer ul.menu-topmenu > li:hover > a,
+#jsn-usermodules3 div.jsn-modulecontainer ul.menu-topmenu > li:hover > a,
+div.jsn-modulecontainer.richbox-1 ul.menu-topmenu > li.active > a,
+div.jsn-modulecontainer.solid-1 ul.menu-topmenu > li.active > a,
+#jsn-promo div.jsn-modulecontainer ul.menu-topmenu > li.active > a,
+#jsn-usermodules3 div.jsn-modulecontainer ul.menu-topmenu > li.active > a {
+	color: #e39287;
+}
+/* ============================== JOOMLA! DEFAULT EXTENSIONS ============================== */
+/* =============== JOOMLA! EXTENSIONS - COM_CONTENT =============== */
+/* ----- SECTION / CATEGORY BLOG LAYOUT ----- */
+/* PAGE PAGINATION */
+ul.jsn-pagination li.navigation-page span {
+	background-color: #cc4d3d;
+}
+/* ----- TOOLBOX LOGIN ----- */
+#sbox-content .jsn-login-form form .button-wrapper input[name="Submit"] {
+	background-color: #cc4d3d;
+}
+#sbox-content .jsn-login-form form .button-wrapper input[name="Submit"]:hover {
+	background-color: #a93627;
+}

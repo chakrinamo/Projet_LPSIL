@@ -1,0 +1,14 @@
+.jsn-master .jsn-es-animation-editor {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+
+	display: none;
+	width: 800px;
+	height: 400px;
+	margin: -200px -400px;
+	padding: 10px;
+
+	z-index: 1000;
+	background: #191b22;
+}

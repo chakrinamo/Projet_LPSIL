@@ -1,0 +1,1 @@
+void function(exports){var BackboneView=Backbone.View;Backbone.ReactiveView=BackboneView.extend({template:function(){return React.createElement("div",null)},render:function(){React.render(_.result(this,"template"),this.el);return this}})}(this);
